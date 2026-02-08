@@ -1,0 +1,27 @@
+@import './globals.css';
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, var(--dark-bg), var(--darker-bg));
+  position: relative;
+}
+
+/* Smooth page transitions */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Print styles */
+@media print {
+  .header,
+  .footer {
+    display: none;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+}

@@ -18,7 +18,7 @@ export const Hero = () => {
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.8, ease: 'easeOut' },
+      transition: { duration: 0.8 },
     },
   };
 
@@ -27,7 +27,6 @@ export const Hero = () => {
     transition: {
       duration: 4,
       repeat: Infinity,
-      ease: 'easeInOut',
     },
   };
 
